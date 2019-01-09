@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="puppy_details">
+        <item>Dogs dachshund puppies are so cute and they are my favorite </item>
+        <item>Another set of cute puppies</item>
+
+    </string-array>
+
+</resources>

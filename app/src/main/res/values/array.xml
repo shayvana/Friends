@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="puppy_details">
+        <item>Vanderbilt: Vanderbilt University is a private research university located in Nashville, Tennessee.</item>
+        <item>UIUC: The University of Illinois at Urbana–Champaign is a public research university in the U.S. state of Illinois.</item>
+        <item>Northwestern: Northwestern University is a private research university based in Evanston, Illinois.</item>
+        <item>Case Western: Case Western Reserve University: the top-ranked private research university in Ohio and one of the best in the U.S.</item>
+
+    </string-array>
+
+</resources>

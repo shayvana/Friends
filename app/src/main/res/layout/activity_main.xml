@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="0dp"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Friends"
+        android:textSize="40.0sp"
+        android:textStyle="bold"
+        android:layout_marginTop = "0dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click on a friend to know more about them: "
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <!--
+    GridView
+    -->
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:columnCount="2"
+        android:rowCount="6">
+
+        <ImageButton
+            android:id="@+id/boy1button"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:scaleType="fitCenter"
+            android:onClick="onClickPuppy"
+            android:background="#0000"
+            android:padding="5dp"
+            android:src="@drawable/matthewgombar" />
+
+        <ImageButton
+            android:id="@+id/boy2button"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:scaleType="fitCenter"
+            android:onClick="onClickPuppy"
+            android:background="#0000"
+            android:padding="5dp"
+            android:src="@drawable/rustom" />
+
+        <ImageButton
+            android:id="@+id/boy3button"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:scaleType="fitCenter"
+            android:onClick="onClickPuppy"
+            android:padding="5dp"
+            android:background="#0000"
+            android:src="@drawable/justinkang" />
+
+        <ImageButton
+            android:id="@+id/boy4button"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:scaleType="fitCenter"
+            android:onClick="onClickPuppy"
+            android:padding="5dp"
+            android:background="#0000"
+            android:src="@drawable/matthewstevens" />
+
+    </GridLayout>
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:text="Audio Controller"
+            android:layout_centerHorizontal="true"
+            />
+
+        <Button
+            android:id="@+id/button1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="10dp"
+            android:text="start"
+            />
+
+        <Button
+            android:id="@+id/button2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/button1"
+            android:layout_toRightOf="@+id/button1"
+            android:text="pause" />
+
+    </RelativeLayout>
+</LinearLayout>
